@@ -7,6 +7,12 @@ echo "<hr>";
 print_r($myArray[1]);
 echo "<hr>";
 echo $myArray[2];
+echo "<hr>";
+
+$anotherArray[1] = "草莓";
+$anotherArray[0] = "果醬";
+$anotherArray[2] = "吐司";
+print_r($anotherArray);
 
 
 ?>
