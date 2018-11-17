@@ -33,6 +33,14 @@ echo "<hr>";
 
 unset($thirdArray["eng"]);
 print_r($thirdArray);
+echo "<hr>";
+
+$name = "ken";
+echo $name;
+
+unset($name);
+echo $name;
+
 
 
 ?>
