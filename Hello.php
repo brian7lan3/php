@@ -11,8 +11,20 @@ echo "<hr>";
 
 $anotherArray[1] = "草莓";
 $anotherArray[0] = "果醬";
-$anotherArray[2] = "吐司";
+$anotherArray[3] = "吐司";
 print_r($anotherArray);
+echo "<hr>";
+
+$thirdArray = array(
+    "eng" => "英文",
+    "kor" => "韓文",
+    "jap" => "日文"
+);
+print_r($thirdArray);
+echo "<hr>";
+
+echo $thirdArray["eng"];
+echo $thirdArray["韓文"];//不行
 
 
 ?>
