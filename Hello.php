@@ -11,7 +11,8 @@ echo "<hr>";
 
 $anotherArray[1] = "草莓";
 $anotherArray[0] = "果醬";
-$anotherArray[3] = "吐司";
+$anotherArray[5] = "吐司";
+$anotherArray[3] = "測試";
 print_r($anotherArray);
 echo "<hr>";
 
@@ -24,7 +25,10 @@ print_r($thirdArray);
 echo "<hr>";
 
 echo $thirdArray["eng"];
-echo $thirdArray["韓文"];//不行
+echo "<hr>";
+
+$anotherArray[] = "沙拉";
+print_r($anotherArray);
 
 
 ?>
