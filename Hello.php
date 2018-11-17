@@ -29,6 +29,10 @@ echo "<hr>";
 
 $anotherArray[] = "沙拉";
 print_r($anotherArray);
+echo "<hr>";
+
+unset($thirdArray["eng"]);
+print_r($thirdArray);
 
 
 ?>
