@@ -2,13 +2,17 @@
 
     $myBolan = array("貓","狗","牛");
 
-    foreach ($myBolan as $key => $value){
-        echo "位置： $key , 值：$value <hr>";
+    // $i = 0;
+
+    // while($myBolan[$i]){
+    //     echo "位置: $i , 值: $myBolan[$i] <br/> ";
+    //     $i++;
+    // }
+
+    $i = 0;
+    while($i <= 10){
+        echo $i."<br/>";
+        $i++;
     }
-
-
-// for ($i = 0; $i < 10; $i = $i + 2) {
-//     echo $i . "<hr>";
-// }
 
 ?>
